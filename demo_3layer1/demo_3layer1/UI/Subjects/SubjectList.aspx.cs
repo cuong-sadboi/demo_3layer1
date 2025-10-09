@@ -1,4 +1,4 @@
-using demo_3layer1.Business;
+﻿using demo_3layer1.Business;
 using System;
 using System.Web.UI.WebControls;
 
@@ -22,6 +22,8 @@ namespace demo_3layer1.UI
                 Response.Redirect("~/UI/Login/Login.aspx");
                 return;
             }
+            // Set back button text by role
+            btnBackAdmin.Text = role == "Teacher" ? "⬅️ Quay lại trang Giảng Viên" : "⬅️ Quay lại trang Admin";
             if (!IsPostBack)
                 LoadSubjects();
         }
@@ -39,7 +41,15 @@ namespace demo_3layer1.UI
 
         protected void btnBackAdmin_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/UI/Login/AdminDashboard.aspx");
+            var role = Session["Role"] as string;
+            if (role == "Teacher")
+            {
+                Response.Redirect("~/UI/Login/TeacherDashboard.aspx");
+            }
+            else
+            {
+                Response.Redirect("~/UI/Login/AdminDashboard.aspx");
+            }
         }
 
         protected void gvSubjects_RowCommand(object sender, GridViewCommandEventArgs e)

@@ -23,6 +23,8 @@ namespace demo_3layer1.Grades
                 Response.Redirect("~/UI/Login/Login.aspx");
                 return;
             }
+                        // Set back button label based on role
+            btnBack.Text = role == "Teacher" ? "⬅️ Quay lại trang Giảng Viên" : "⬅️ Quay lại trang Admin";
             if (!IsPostBack) LoadGrades();
         }
 
@@ -98,7 +100,15 @@ namespace demo_3layer1.Grades
         }
         protected void btnBack_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/UI/Login/AdminDashboard.aspx");
+            var role = Session["Role"] as string;
+            if (role == "Teacher")
+            {
+                Response.Redirect("~/UI/Login/TeacherDashboard.aspx");
+            }
+            else
+            {
+                Response.Redirect("~/UI/Login/AdminDashboard.aspx");
+            }
         }
     }
 }

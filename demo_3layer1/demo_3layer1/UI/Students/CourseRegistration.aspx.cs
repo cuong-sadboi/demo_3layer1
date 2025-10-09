@@ -1,4 +1,4 @@
-using demo_3layer1.DataAccess;
+﻿using demo_3layer1.DataAccess;
 using demo_3layer1.Models;
 using System;
 using System.Linq;
@@ -84,7 +84,7 @@ namespace demo_3layer1.UI.Students
                 return;
             }
 
-            _context.CourseRegistrations.Add(new CourseRegistration
+            _context.CourseRegistrations.Add(new demo_3layer1.Models.CourseRegistration
             {
                 StudentId = studentId,
                 SubjectId = subjectId,
