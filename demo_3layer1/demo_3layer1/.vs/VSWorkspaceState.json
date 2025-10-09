@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App_Start",
+    "\\Business",
+    "\\DataAccess",
+    "\\Models",
+    "\\UI"
+  ],
+  "SelectedNode": "\\Web.Release.config",
+  "PreviewInSolutionExplorer": false
+}

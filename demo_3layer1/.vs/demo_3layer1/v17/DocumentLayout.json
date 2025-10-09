@@ -1,0 +1,763 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|c:\\users\\admin\\downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\business\\gradebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\business\\gradebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|c:\\users\\admin\\downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\students\\studentlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\students\\studentlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\students\\studentlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\students\\studentlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\students\\studentedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\students\\studentedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\students\\studentedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\students\\studentedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\business\\studentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\business\\studentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\business\\subjectbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\business\\subjectbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectadd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectadd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\students\\studentadd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\students\\studentadd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\students\\studentadd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\students\\studentadd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectadd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectadd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\dataaccess\\subjectdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\dataaccess\\subjectdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\dataaccess\\studentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\dataaccess\\studentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\subjects\\subjectedit.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\subjects\\subjectedit.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\dataaccess\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\dataaccess\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\home\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\home\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\home\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\home\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\home\\home.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\home\\home.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\studentdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\studentdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\studentdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\studentdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\teacherdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\teacherdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\studentdashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\studentdashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\ui\\login\\teacherdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\ui\\login\\teacherdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Demo3layerDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\migrations\\202510071309152_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\migrations\\202510071309152_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\migrations\\202510070343169_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\migrations\\202510070343169_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\models\\courseregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979A00C3-8BD7-4EE9-85D9-5BF41423628C}|demo_3layer1\\demo_3layer1.csproj|solutionrelative:demo_3layer1\\models\\courseregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{02d1f8b9-d0a0-4ccb-9687-e6f0f781ad9e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GradeBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\GradeBusiness.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Business\\GradeBusiness.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\GradeBusiness.cs",
+              "RelativeToolTip": "demo_3layer1\\Business\\GradeBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T16:01:51.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentList.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Students\\StudentList.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentList.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Students\\StudentList.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T16:24:53.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubjectEdit.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.designer.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.designer.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:08:05.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubjectEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDcAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:04:22.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SubjectEdit.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T23:03:55.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubjectAdd.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:02:51.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Demo3layerDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Demo3layerDB/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-07T14:36:41.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Site.Master",
+              "RelativeDocumentMoniker": "demo_3layer1\\Site.Master",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Site.Master",
+              "RelativeToolTip": "demo_3layer1\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T23:18:39.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubjectAdd.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectAdd.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T23:01:46.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SubjectList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectList.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectList.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectList.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectList.aspx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:01:21.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubjectList.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectList.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Subjects\\SubjectList.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Subjects\\SubjectList.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Subjects\\SubjectList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T23:00:37.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SubjectDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\SubjectDataAccess.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\DataAccess\\SubjectDataAccess.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\SubjectDataAccess.cs",
+              "RelativeToolTip": "demo_3layer1\\DataAccess\\SubjectDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T22:55:02.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubjectBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\SubjectBusiness.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Business\\SubjectBusiness.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\SubjectBusiness.cs",
+              "RelativeToolTip": "demo_3layer1\\Business\\SubjectBusiness.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T22:54:46.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentEdit.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Students\\StudentEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentEdit.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Students\\StudentEdit.aspx.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwDoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T16:40:34.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentEdit.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentEdit.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Students\\StudentEdit.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentEdit.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Students\\StudentEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T16:40:22.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentAdd.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentAdd.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Students\\StudentAdd.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentAdd.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Students\\StudentAdd.aspx.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T16:35:32.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentAdd.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentAdd.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Students\\StudentAdd.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentAdd.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Students\\StudentAdd.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T16:35:14.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentList.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentList.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Students\\StudentList.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Students\\StudentList.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Students\\StudentList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T16:23:49.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Home.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Home\\Home.aspx.designer.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Home\\Home.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Home\\Home.aspx.designer.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Home\\Home.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:29:49.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Home\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Home\\Home.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Home\\Home.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Home\\Home.aspx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:28:30.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Home\\Home.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Home\\Home.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Home\\Home.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Home\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T15:28:03.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StudentDashboard.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\StudentDashboard.aspx.designer.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\StudentDashboard.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\StudentDashboard.aspx.designer.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\StudentDashboard.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:12:57.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\Login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\Login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\Login.aspx.designer.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\Login.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:49:05.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentDashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\StudentDashboard.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\StudentDashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\StudentDashboard.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\StudentDashboard.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:46:59.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StudentDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\StudentDashboard.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\StudentDashboard.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\StudentDashboard.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\StudentDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T14:46:24.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TeacherDashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\TeacherDashboard.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\TeacherDashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\TeacherDashboard.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\TeacherDashboard.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:44:54.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TeacherDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\TeacherDashboard.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\TeacherDashboard.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\TeacherDashboard.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\TeacherDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T14:44:38.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminDashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\AdminDashboard.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\AdminDashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\AdminDashboard.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\AdminDashboard.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:39:26.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\AdminDashboard.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\AdminDashboard.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\AdminDashboard.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\AdminDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T14:39:23.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\Login.aspx",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\Login.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\Login.aspx",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-07T14:28:30.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\UI\\Login\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\UI\\Login\\Login.aspx.cs",
+              "RelativeToolTip": "demo_3layer1\\UI\\Login\\Login.aspx.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvyUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:31:20.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\UserBusiness.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Business\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\UserBusiness.cs",
+              "RelativeToolTip": "demo_3layer1\\Business\\UserBusiness.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:30:11.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\UserDataAccess.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\DataAccess\\UserDataAccess.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\UserDataAccess.cs",
+              "RelativeToolTip": "demo_3layer1\\DataAccess\\UserDataAccess.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:27:54.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "202510071309152_Init1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Migrations\\202510071309152_Init1.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Migrations\\202510071309152_Init1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Migrations\\202510071309152_Init1.cs",
+              "RelativeToolTip": "demo_3layer1\\Migrations\\202510071309152_Init1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:09:19.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\StudentDataAccess.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\DataAccess\\StudentDataAccess.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\StudentDataAccess.cs",
+              "RelativeToolTip": "demo_3layer1\\DataAccess\\StudentDataAccess.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswDcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:49:13.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "202510070343169_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Migrations\\202510070343169_Init.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Migrations\\202510070343169_Init.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Migrations\\202510070343169_Init.cs",
+              "RelativeToolTip": "demo_3layer1\\Migrations\\202510070343169_Init.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:43:28.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "demo_3layer1\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:41:38.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Web.config",
+              "RelativeDocumentMoniker": "demo_3layer1\\Web.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Web.config",
+              "RelativeToolTip": "demo_3layer1\\Web.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-07T03:39:27.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\DataAccess\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "demo_3layer1\\DataAccess\\AppDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:38:34.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\StudentBusiness.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Business\\StudentBusiness.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Business\\StudentBusiness.cs",
+              "RelativeToolTip": "demo_3layer1\\Business\\StudentBusiness.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:26:44.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CourseRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\CourseRegistration.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Models\\CourseRegistration.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\CourseRegistration.cs",
+              "RelativeToolTip": "demo_3layer1\\Models\\CourseRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:18:26.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Models\\Grade.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\Grade.cs",
+              "RelativeToolTip": "demo_3layer1\\Models\\Grade.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:17:42.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\Student.cs",
+              "RelativeToolTip": "demo_3layer1\\Models\\Student.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:17:12.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\Subject.cs",
+              "RelativeToolTip": "demo_3layer1\\Models\\Subject.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:16:48.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "demo_3layer1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\demo_3layer1\\demo_3layer1\\demo_3layer1\\Models\\User.cs",
+              "RelativeToolTip": "demo_3layer1\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:16:08.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
