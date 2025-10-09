@@ -1,4 +1,4 @@
-﻿using demo_3layer1.DataAccess;
+using demo_3layer1.DataAccess;
 using demo_3layer1.Models;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,14 +7,6 @@ namespace WebFormsApp.DataAccess
 {
     public class StudentDataAccess
     {
-        private readonly AppDbContext _context;
-
-        public StudentDataAccess()
-        {
-            _context = new AppDbContext();
-        }
-
-        // Lấy danh sách sinh viên
         public List<Student> GetAllStudents()
         {
             using (var context = new AppDbContext())
@@ -23,55 +15,49 @@ namespace WebFormsApp.DataAccess
             }
         }
 
-        // Thêm sinh viên
-        public void AddStudent(Student s)
+        public void AddStudent(Student student)
         {
             using (var context = new AppDbContext())
             {
-                _context.Students.Add(s);
-                _context.SaveChanges();
+                context.Students.Add(student);
+                context.SaveChanges();
             }
-         
         }
 
-        // Lấy sinh viên theo ID
         public Student GetStudentById(int id)
         {
             using (var context = new AppDbContext())
             {
-                return _context.Students.Find(id);
+                return context.Students.Find(id);
             }
-           
         }
 
-        // Cập nhật sinh viên
-        public void UpdateStudent(Student s)
+        public void UpdateStudent(Student student)
         {
             using (var context = new AppDbContext())
             {
-                var existing = _context.Students.Find(s.Id);
+                var existing = context.Students.Find(student.Id);
                 if (existing != null)
                 {
-                    existing.Name = s.Name;
-                    existing.ClassName = s.ClassName;
-                    existing.Email = s.Email;
-                    _context.SaveChanges();
+                    existing.Name = student.Name;
+                    existing.ClassName = student.ClassName;
+                    existing.Email = student.Email;
+                    context.SaveChanges();
                 }
             }
         }
 
-        // Xóa sinh viên
         public void DeleteStudent(int id)
         {
             using (var context = new AppDbContext())
             {
                 var existing = context.Students.Find(id);
-                if (existing == null)
-                context.Students.Remove(existing);
-                context.SaveChanges();
+                if (existing != null)
+                {
+                    context.Students.Remove(existing);
+                    context.SaveChanges();
+                }
             }
-
-           
         }
     }
 }
