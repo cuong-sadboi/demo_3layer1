@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using demo_3layer1.Business;
 using demo_3layer1.Models;
 
@@ -44,6 +44,14 @@ namespace demo_3layer1
                 // ✅ Lưu thông tin đăng nhập vào session
                 Session["Username"] = user.Username;
                 Session["Role"] = user.Role;
+                // Optional: set StudentId mapping demo (first student) when Student logs in
+                if (user.Role == "Student" && Session["StudentId"] == null)
+                {
+                    // naive mapping for demo
+                    var ctx = new demo_3layer1.DataAccess.AppDbContext();
+                    var firstStudent = ctx.Students.FirstOrDefault();
+                    if (firstStudent != null) Session["StudentId"] = firstStudent.Id;
+                }
                 lblMessage.Text = "Role: " + user.Role;
                 // ✅ Chuyển hướng sau đăng nhập
                 switch (user.Role)
