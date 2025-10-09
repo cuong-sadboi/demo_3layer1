@@ -1,4 +1,4 @@
-﻿using demo_3layer1.Business;
+using demo_3layer1.Business;
 using demo_3layer1.DataAccess;
 using demo_3layer1.Models;
 using System;
@@ -14,6 +14,12 @@ namespace demo_3layer1.Students
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            var role = Session["Role"] as string;
+            if (string.IsNullOrEmpty(role) || role != "Admin")
+            {
+                Response.Redirect("~/UI/Login/Login.aspx");
+                return;
+            }
             if (!IsPostBack)
             {
                 LoadStudents();

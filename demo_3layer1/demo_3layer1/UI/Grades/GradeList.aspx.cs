@@ -1,4 +1,4 @@
-﻿using demo_3layer1.Business;
+using demo_3layer1.Business;
 using System;
 using System.Globalization;
 using System.Web.UI.WebControls;
@@ -11,6 +11,18 @@ namespace demo_3layer1.Grades
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            var role = Session["Role"] as string;
+            if (string.IsNullOrEmpty(role))
+            {
+                Response.Redirect("~/UI/Login/Login.aspx");
+                return;
+            }
+            // Only Admin and Teacher can access
+            if (role != "Admin" && role != "Teacher")
+            {
+                Response.Redirect("~/UI/Login/Login.aspx");
+                return;
+            }
             if (!IsPostBack) LoadGrades();
         }
 

@@ -131,6 +131,8 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="UI\Default.aspx" />
+    <Content Include="UI\Students\CourseRegistration.aspx" />
+    <Content Include="UI\Students\ViewGrades.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -300,6 +302,20 @@
     <Compile Include="UI\Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Students\CourseRegistration.aspx.cs">
+      <DependentUpon>CourseRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Students\CourseRegistration.aspx.designer.cs">
+      <DependentUpon>CourseRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Students\ViewGrades.aspx.cs">
+      <DependentUpon>ViewGrades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Students\ViewGrades.aspx.designer.cs">
+      <DependentUpon>ViewGrades.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
