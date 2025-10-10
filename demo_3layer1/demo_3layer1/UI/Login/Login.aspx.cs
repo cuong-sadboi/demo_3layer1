@@ -3,7 +3,7 @@ using System.Linq;
 using demo_3layer1.Business;
 using demo_3layer1.Models;
 
-namespace demo_3layer1
+namespace demo_3layer1.UI.Loginn
 {
     public partial class Login : System.Web.UI.Page
     {

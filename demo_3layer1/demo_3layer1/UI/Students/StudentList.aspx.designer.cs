@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace demo_3layer1.Students
+namespace demo_3layer1.UI.Students
 {
 
 

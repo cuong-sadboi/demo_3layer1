@@ -1,0 +1,1474 @@
+﻿{
+  "Version": 2,
+  "Properties": {
+    "AreNodeDescriptionsVisible": "True"
+  },
+  "Nodes": [
+    {
+      "Id": "14",
+      "Name": "demo_3layer1",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-09T20:44:18.3566919Z",
+      "AbsoluteTopLeft": "-1028.5585,-3005.5442",
+      "HeaderContentSize": "1884.1921,27",
+      "PreferredHeaderSize": "169.9,27",
+      "Tooltip": "namespace demo_3layer1\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "1884.1921,1737.2999",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "1882.1921,1709.2999",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "demo_3layer1",
+        "FullyQualifiedName": "demo_3layer1",
+        "FullName": "namespace demo_3layer1",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 1
+      }
+    },
+    {
+      "Id": "17",
+      "ParentId": "14",
+      "Name": "Business",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-09T20:44:43.2312922Z",
+      "AbsoluteTopLeft": "-155.7617,-1930.9276",
+      "HeaderContentSize": "549.6685,27",
+      "PreferredHeaderSize": "140.9233,27",
+      "Tooltip": "namespace demo_3layer1.Business\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "549.6685,198",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "547.6685,170",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Business",
+        "FullyQualifiedName": "demo_3layer1.Business",
+        "FullName": "namespace demo_3layer1.Business",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "52",
+      "ParentId": "17",
+      "Name": "GradeBusiness",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:00.5778051Z",
+      "AbsoluteTopLeft": "9.0234,-1862.0886",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "92.6433,39.4",
+      "Tooltip": "class demo_3layer1.Business.GradeBusiness\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "GradeBusiness",
+        "FullName": "class demo_3layer1.Business.GradeBusiness",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "53",
+      "ParentId": "17",
+      "Name": "StudentBusiness",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:00.5778051Z",
+      "AbsoluteTopLeft": "139.0234,-1883.9276",
+      "HeaderContentSize": "103.1667,50",
+      "PreferredHeaderSize": "103.1667,39.4",
+      "Tooltip": "class demo_3layer1.Business.StudentBusiness\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "103.1667,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "StudentBusiness",
+        "FullName": "class demo_3layer1.Business.StudentBusiness",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"StudentBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "54",
+      "ParentId": "17",
+      "Name": "SubjectBusiness",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:00.5778051Z",
+      "AbsoluteTopLeft": "272.1901,-1883.9276",
+      "HeaderContentSize": "100.7167,50",
+      "PreferredHeaderSize": "100.7167,39.4",
+      "Tooltip": "class demo_3layer1.Business.SubjectBusiness\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100.7167,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SubjectBusiness",
+        "FullName": "class demo_3layer1.Business.SubjectBusiness",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"SubjectBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "55",
+      "ParentId": "17",
+      "Name": "UserBusiness",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:00.5778051Z",
+      "AbsoluteTopLeft": "-134.7617,-1874.5468",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "84.1833,39.4",
+      "Tooltip": "class demo_3layer1.Business.UserBusiness\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "UserBusiness",
+        "FullName": "class demo_3layer1.Business.UserBusiness",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"UserBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "18",
+      "ParentId": "14",
+      "Name": "DataAccess",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-09T20:44:43.2322935Z",
+      "AbsoluteTopLeft": "-946.5708,-2752.395",
+      "HeaderContentSize": "519.7467,27",
+      "PreferredHeaderSize": "155.9833,27",
+      "Tooltip": "namespace demo_3layer1.DataAccess\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "519.7467,416.8357",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "517.7467,388.8357",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "DataAccess",
+        "FullyQualifiedName": "demo_3layer1.DataAccess",
+        "FullName": "namespace demo_3layer1.DataAccess",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "57",
+      "ParentId": "18",
+      "Name": "AppDbContext",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:46.0402337Z",
+      "AbsoluteTopLeft": "-585.7605,-2645.2267",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "95.1,39.4",
+      "Tooltip": "class demo_3layer1.DataAccess.AppDbContext\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "AppDbContext",
+        "FullName": "class demo_3layer1.DataAccess.AppDbContext",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "58",
+      "ParentId": "18",
+      "Name": "GradeDataAccess",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:46.0402337Z",
+      "AbsoluteTopLeft": "-915.9634,-2625.395",
+      "HeaderContentSize": "108.1267,50",
+      "PreferredHeaderSize": "108.1267,39.4",
+      "Tooltip": "class demo_3layer1.DataAccess.GradeDataAccess\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "108.1267,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "GradeDataAccess",
+        "FullName": "class demo_3layer1.DataAccess.GradeDataAccess",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"GradeDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "59",
+      "ParentId": "18",
+      "Name": "SubjectDataAccess",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:46.0402337Z",
+      "AbsoluteTopLeft": "-915.9634,-2705.395",
+      "HeaderContentSize": "116.2,50",
+      "PreferredHeaderSize": "116.2,39.4",
+      "Tooltip": "class demo_3layer1.DataAccess.SubjectDataAccess\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "116.2,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SubjectDataAccess",
+        "FullName": "class demo_3layer1.DataAccess.SubjectDataAccess",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "60",
+      "ParentId": "18",
+      "Name": "UserDataAccess",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:46:46.0402337Z",
+      "AbsoluteTopLeft": "-915.9634,-2465.3175",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "99.6667,39.4",
+      "Tooltip": "class demo_3layer1.DataAccess.UserDataAccess\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "UserDataAccess",
+        "FullName": "class demo_3layer1.DataAccess.UserDataAccess",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"UserDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "79",
+      "ParentId": "18",
+      "Name": "StudentDataAccess",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:24:26.0031833Z",
+      "AbsoluteTopLeft": "-925.5708,-2545.395",
+      "HeaderContentSize": "118.65,50",
+      "PreferredHeaderSize": "118.65,39.4",
+      "Tooltip": "class demo_3layer1.DataAccess.StudentDataAccess\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "118.65,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "StudentDataAccess",
+        "FullName": "class demo_3layer1.DataAccess.StudentDataAccess",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"StudentDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "21",
+      "ParentId": "14",
+      "Name": "Models",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-09T20:44:43.2332952Z",
+      "AbsoluteTopLeft": "-842.1302,-1939.6006",
+      "HeaderContentSize": "420.4333,27",
+      "PreferredHeaderSize": "135.15,27",
+      "Tooltip": "namespace demo_3layer1.Models\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "420.4333,198",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "418.4333,170",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Models",
+        "FullyQualifiedName": "demo_3layer1.Models",
+        "FullName": "namespace demo_3layer1.Models",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "71",
+      "ParentId": "21",
+      "Name": "CourseRegistration",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:47:43.2257173Z",
+      "AbsoluteTopLeft": "-821.1302,-1892.6006",
+      "HeaderContentSize": "118.4333,50",
+      "PreferredHeaderSize": "118.4333,39.4",
+      "Tooltip": "class demo_3layer1.Models.CourseRegistration\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "118.4333,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "CourseRegistration",
+        "FullName": "class demo_3layer1.Models.CourseRegistration",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "72",
+      "ParentId": "21",
+      "Name": "Grade",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:47:43.2257173Z",
+      "AbsoluteTopLeft": "-788.8039,-1812.6006",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "57,39.4",
+      "Tooltip": "class demo_3layer1.Models.Grade\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Grade",
+        "FullName": "class demo_3layer1.Models.Grade",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Grade\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "73",
+      "ParentId": "21",
+      "Name": "Student",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:47:43.2257173Z",
+      "AbsoluteTopLeft": "-658.8039,-1812.6006",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "57,39.4",
+      "Tooltip": "class demo_3layer1.Models.Student\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Student",
+        "FullName": "class demo_3layer1.Models.Student",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Student\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "74",
+      "ParentId": "21",
+      "Name": "Subject",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:47:43.2257173Z",
+      "AbsoluteTopLeft": "-672.6969,-1892.6006",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "57,39.4",
+      "Tooltip": "class demo_3layer1.Models.Subject\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Subject",
+        "FullName": "class demo_3layer1.Models.Subject",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Subject\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "75",
+      "ParentId": "21",
+      "Name": "User",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:47:43.2257173Z",
+      "AbsoluteTopLeft": "-542.6969,-1892.6006",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "57,39.4",
+      "Tooltip": "class demo_3layer1.Models.User\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "User",
+        "FullName": "class demo_3layer1.Models.User",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"User\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "24",
+      "ParentId": "14",
+      "Name": "UI",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-09T20:44:43.2332952Z",
+      "AbsoluteTopLeft": "-326.8241,-2958.5442",
+      "HeaderContentSize": "1011.6258,27",
+      "PreferredHeaderSize": "107.4367,27",
+      "Tooltip": "namespace demo_3layer1.UI\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "1011.6258,814.9656",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "1009.6258,786.9656",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "UI",
+        "FullyQualifiedName": "demo_3layer1.UI",
+        "FullName": "namespace demo_3layer1.UI",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "38",
+      "ParentId": "24",
+      "Name": "Students",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-09T20:44:55.0076907Z",
+      "AbsoluteTopLeft": "-42.9817,-2842.1262",
+      "HeaderContentSize": "331.6858,27",
+      "PreferredHeaderSize": "142.1367,27",
+      "Tooltip": "namespace demo_3layer1.UI.Students\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "331.6858,332.0457",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "329.6858,304.0457",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Students",
+        "FullyQualifiedName": "demo_3layer1.UI.Students",
+        "FullName": "namespace demo_3layer1.UI.Students",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "42",
+      "ParentId": "38",
+      "Name": "CourseRegistration",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:45:23.3811170Z",
+      "AbsoluteTopLeft": "-21.9817,-2715.1262",
+      "HeaderContentSize": "118.4333,50",
+      "PreferredHeaderSize": "118.4333,39.4",
+      "Tooltip": "class demo_3layer1.UI.Students.CourseRegistration\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "118.4333,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "CourseRegistration",
+        "FullName": "class demo_3layer1.UI.Students.CourseRegistration",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "43",
+      "ParentId": "38",
+      "Name": "StudentAdd",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:45:23.3811170Z",
+      "AbsoluteTopLeft": "37.7041,-2614.4884",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "78.5067,39.4",
+      "Tooltip": "class demo_3layer1.UI.Students.StudentAdd\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "StudentAdd",
+        "FullName": "class demo_3layer1.UI.Students.StudentAdd",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"StudentAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "44",
+      "ParentId": "38",
+      "Name": "StudentEdit",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:45:23.3811170Z",
+      "AbsoluteTopLeft": "126.4516,-2694.4884",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "77.1067,39.4",
+      "Tooltip": "class demo_3layer1.UI.Students.StudentEdit\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "StudentEdit",
+        "FullName": "class demo_3layer1.UI.Students.StudentEdit",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"StudentEdit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "45",
+      "ParentId": "38",
+      "Name": "ViewGrades",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-09T20:45:23.3811170Z",
+      "AbsoluteTopLeft": "7.7083,-2795.1262",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "77.4433,39.4",
+      "Tooltip": "class demo_3layer1.UI.Students.ViewGrades\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ViewGrades",
+        "FullName": "class demo_3layer1.UI.Students.ViewGrades",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"ViewGrades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "88",
+      "ParentId": "38",
+      "Name": "StudentList",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:47:49.3705892Z",
+      "AbsoluteTopLeft": "167.7041,-2581.0805",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "74.7033,39.4",
+      "Tooltip": "class demo_3layer1.UI.Students.StudentList\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "StudentList",
+        "FullName": "class demo_3layer1.UI.Students.StudentList",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"StudentList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "85",
+      "ParentId": "24",
+      "Name": "Grades",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-10T18:45:20.2663193Z",
+      "AbsoluteTopLeft": "-36.3009,-2399.7547",
+      "HeaderContentSize": "147.6285,27",
+      "PreferredHeaderSize": "132.95,27",
+      "Tooltip": "namespace demo_3layer1.UI.Grades\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "147.6285,209.2569",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "145.6285,181.2569",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Grades",
+        "FullyQualifiedName": "demo_3layer1.UI.Grades",
+        "FullName": "namespace demo_3layer1.UI.Grades",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "86",
+      "ParentId": "85",
+      "Name": "GradeAdd",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:45:20.2663193Z",
+      "AbsoluteTopLeft": "-9.6724,-2341.4978",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "71,39.4",
+      "Tooltip": "class demo_3layer1.UI.Grades.GradeAdd\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "GradeAdd",
+        "FullName": "class demo_3layer1.UI.Grades.GradeAdd",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "87",
+      "ParentId": "85",
+      "Name": "GradeList",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:46:05.5378364Z",
+      "AbsoluteTopLeft": "-15.3009,-2261.4978",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "71,39.4",
+      "Tooltip": "class demo_3layer1.UI.Grades.GradeList\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "GradeList",
+        "FullName": "class demo_3layer1.UI.Grades.GradeList",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"GradeList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "89",
+      "ParentId": "24",
+      "Name": "Subjects",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-10T18:48:54.6900136Z",
+      "AbsoluteTopLeft": "261.7319,-2420.0805",
+      "HeaderContentSize": "402.0698,27",
+      "PreferredHeaderSize": "140.1033,27",
+      "Tooltip": "namespace demo_3layer1.UI.Subjects\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "402.0698,153.4428",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "400.0698,125.4428",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Subjects",
+        "FullyQualifiedName": "demo_3layer1.UI.Subjects",
+        "FullName": "namespace demo_3layer1.UI.Subjects",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "90",
+      "ParentId": "89",
+      "Name": "SubjectAdd",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:48:54.6900136Z",
+      "AbsoluteTopLeft": "282.8017,-2353.8482",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "76.0567,39.4",
+      "Tooltip": "class demo_3layer1.UI.Subjects.SubjectAdd\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SubjectAdd",
+        "FullName": "class demo_3layer1.UI.Subjects.SubjectAdd",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"SubjectAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "91",
+      "ParentId": "89",
+      "Name": "SubjectEdit",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:49:47.6364268Z",
+      "AbsoluteTopLeft": "412.8017,-2337.6377",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "74.6567,39.4",
+      "Tooltip": "class demo_3layer1.UI.Subjects.SubjectEdit\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SubjectEdit",
+        "FullName": "class demo_3layer1.UI.Subjects.SubjectEdit",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"SubjectEdit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "92",
+      "ParentId": "89",
+      "Name": "SubjectList",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:49:52.8130873Z",
+      "AbsoluteTopLeft": "542.8017,-2337.6379",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "72.2533,39.4",
+      "Tooltip": "class demo_3layer1.UI.Subjects.SubjectList\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SubjectList",
+        "FullName": "class demo_3layer1.UI.Subjects.SubjectList",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"SubjectList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    },
+    {
+      "Id": "106",
+      "ParentId": "24",
+      "Name": "Login",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2025-10-10T18:53:39.3429971Z",
+      "AbsoluteTopLeft": "-268.3009,-2325.6224",
+      "HeaderContentSize": "142,27",
+      "PreferredHeaderSize": "125.4433,27",
+      "Tooltip": "namespace demo_3layer1.UI.Login\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "142,118",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "140,90",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Login",
+        "FullyQualifiedName": "demo_3layer1.UI.Login",
+        "FullName": "namespace demo_3layer1.UI.Login",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "107",
+      "ParentId": "106",
+      "Name": "Login",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2025-10-10T18:53:39.3429971Z",
+      "AbsoluteTopLeft": "-247.3009,-2278.6224",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "71,39.4",
+      "Tooltip": "class demo_3layer1.UI.Login.Login\r\nassembly: demo_3layer1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Login",
+        "FullName": "class demo_3layer1.UI.Login.Login",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "IsDisposable": true
+      }
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "4",
+      "SourceNodeId": "43",
+      "TargetNodeId": "53",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"StudentAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"StudentBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_bus",
+              "Tooltip": "private readonly StudentBusiness _bus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_bus\",\"C\":{\"K\":\"NamedType\",\"N\":\"StudentAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "5",
+      "SourceNodeId": "44",
+      "TargetNodeId": "53",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"StudentEdit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"StudentBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_bus",
+              "Tooltip": "private readonly StudentBusiness _bus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_bus\",\"C\":{\"K\":\"NamedType\",\"N\":\"StudentEdit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "10",
+      "SourceNodeId": "42",
+      "TargetNodeId": "57",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_context",
+              "Tooltip": "private readonly AppDbContext _context"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_context\",\"C\":{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "11",
+      "SourceNodeId": "45",
+      "TargetNodeId": "57",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"ViewGrades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_context",
+              "Tooltip": "private readonly AppDbContext _context"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_context\",\"C\":{\"K\":\"NamedType\",\"N\":\"ViewGrades\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "12",
+      "SourceNodeId": "52",
+      "TargetNodeId": "58",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"GradeDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_data",
+              "Tooltip": "private readonly GradeDataAccess _data"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_data\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "13",
+      "SourceNodeId": "42",
+      "TargetNodeId": "59",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_subjectData",
+              "Tooltip": "private readonly SubjectDataAccess _subjectData"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_subjectData\",\"C\":{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "15",
+      "SourceNodeId": "52",
+      "TargetNodeId": "59",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_subjectData",
+              "Tooltip": "private readonly SubjectDataAccess _subjectData"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_subjectData\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "16",
+      "SourceNodeId": "54",
+      "TargetNodeId": "59",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"SubjectBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_dataAccess",
+              "Tooltip": "private readonly SubjectDataAccess _dataAccess"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_dataAccess\",\"C\":{\"K\":\"NamedType\",\"N\":\"SubjectBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "17",
+      "SourceNodeId": "55",
+      "TargetNodeId": "60",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"UserBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"UserDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_userDataAccess",
+              "Tooltip": "private readonly UserDataAccess _userDataAccess",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_userDataAccess\",\"C\":{\"K\":\"NamedType\",\"N\":\"UserBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "18",
+      "SourceNodeId": "58",
+      "TargetNodeId": "57",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_context",
+              "Tooltip": "private readonly AppDbContext _context"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_context\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "19",
+      "SourceNodeId": "59",
+      "TargetNodeId": "57",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_context",
+              "Tooltip": "private readonly AppDbContext _context"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_context\",\"C\":{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "20",
+      "SourceNodeId": "60",
+      "TargetNodeId": "57",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"UserDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_context",
+              "Tooltip": "private readonly AppDbContext _context"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_context\",\"C\":{\"K\":\"NamedType\",\"N\":\"UserDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "21",
+      "SourceNodeId": "57",
+      "TargetNodeId": "71",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "CourseRegistrations",
+              "Tooltip": "public DbSet<CourseRegistration> CourseRegistrations { get; set; }"
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"CourseRegistrations\",\"C\":{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "22",
+      "SourceNodeId": "57",
+      "TargetNodeId": "72",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Grade\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "Grades",
+              "Tooltip": "public DbSet<Grade> Grades { get; set; }"
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Grades\",\"C\":{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "23",
+      "SourceNodeId": "57",
+      "TargetNodeId": "73",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Student\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "Students",
+              "Tooltip": "public DbSet<Student> Students { get; set; }"
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Students\",\"C\":{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "24",
+      "SourceNodeId": "57",
+      "TargetNodeId": "74",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Subject\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "Subjects",
+              "Tooltip": "public DbSet<Subject> Subjects { get; set; }"
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Subjects\",\"C\":{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "25",
+      "SourceNodeId": "57",
+      "TargetNodeId": "75",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"User\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "Users",
+              "Tooltip": "public DbSet<User> Users { get; set; }"
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Users\",\"C\":{\"K\":\"NamedType\",\"N\":\"AppDbContext\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "26",
+      "SourceNodeId": "71",
+      "TargetNodeId": "73",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Student\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "Student",
+              "Tooltip": "public Student Student { get; set; }",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Student\",\"C\":{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "27",
+      "SourceNodeId": "71",
+      "TargetNodeId": "74",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Subject\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "Subject",
+              "Tooltip": "public Subject Subject { get; set; }",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Subject\",\"C\":{\"K\":\"NamedType\",\"N\":\"CourseRegistration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "28",
+      "SourceNodeId": "72",
+      "TargetNodeId": "73",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Grade\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Student\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "Student",
+              "Tooltip": "public Student Student { get; set; }",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Student\",\"C\":{\"K\":\"NamedType\",\"N\":\"Grade\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "29",
+      "SourceNodeId": "72",
+      "TargetNodeId": "74",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Grade\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"Subject\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "Subject",
+              "Tooltip": "public Subject Subject { get; set; }",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"Subject\",\"C\":{\"K\":\"NamedType\",\"N\":\"Grade\",\"C\":{\"K\":\"Namespace\",\"N\":\"Models\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "35",
+      "SourceNodeId": "52",
+      "TargetNodeId": "79",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}|Association|{\"K\":\"NamedType\",\"N\":\"StudentDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_studentData",
+              "Tooltip": "private readonly StudentDataAccess _studentData"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_studentData\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "39",
+      "SourceNodeId": "86",
+      "TargetNodeId": "52",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_gradeBus",
+              "Tooltip": "private readonly GradeBusiness _gradeBus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_gradeBus\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "40",
+      "SourceNodeId": "86",
+      "TargetNodeId": "79",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"StudentDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_studentData",
+              "Tooltip": "private readonly StudentDataAccess _studentData"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_studentData\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "41",
+      "SourceNodeId": "86",
+      "TargetNodeId": "59",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectDataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataAccess\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_subjectData",
+              "Tooltip": "private readonly SubjectDataAccess _subjectData"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_subjectData\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "42",
+      "SourceNodeId": "87",
+      "TargetNodeId": "52",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"GradeList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"GradeBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_gradeBus",
+              "Tooltip": "private readonly GradeBusiness _gradeBus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_gradeBus\",\"C\":{\"K\":\"NamedType\",\"N\":\"GradeList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Grades\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "43",
+      "SourceNodeId": "88",
+      "TargetNodeId": "53",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"StudentList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"StudentBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_bus",
+              "Tooltip": "private StudentBusiness _bus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_bus\",\"C\":{\"K\":\"NamedType\",\"N\":\"StudentList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Students\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "44",
+      "SourceNodeId": "90",
+      "TargetNodeId": "54",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"SubjectAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_bus",
+              "Tooltip": "private readonly SubjectBusiness _bus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_bus\",\"C\":{\"K\":\"NamedType\",\"N\":\"SubjectAdd\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "45",
+      "SourceNodeId": "91",
+      "TargetNodeId": "54",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"SubjectEdit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_bus",
+              "Tooltip": "private readonly SubjectBusiness _bus"
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_bus\",\"C\":{\"K\":\"NamedType\",\"N\":\"SubjectEdit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "46",
+      "SourceNodeId": "92",
+      "TargetNodeId": "54",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"SubjectList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"SubjectBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_subjectBusiness",
+              "Tooltip": "private readonly SubjectBusiness _subjectBusiness",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_subjectBusiness\",\"C\":{\"K\":\"NamedType\",\"N\":\"SubjectList\",\"C\":{\"K\":\"Namespace\",\"N\":\"Subjects\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "49",
+      "SourceNodeId": "107",
+      "TargetNodeId": "55",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"UserBusiness\",\"C\":{\"K\":\"Namespace\",\"N\":\"Business\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_userBusiness",
+              "Tooltip": "private readonly UserBusiness _userBusiness",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_userBusiness\",\"C\":{\"K\":\"NamedType\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"Login\",\"C\":{\"K\":\"Namespace\",\"N\":\"UI\",\"C\":{\"K\":\"Namespace\",\"N\":\"demo_3layer1\",\"C\":{\"K\":\"Assembly\",\"N\":\"demo_3layer1\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    }
+  ]
+}

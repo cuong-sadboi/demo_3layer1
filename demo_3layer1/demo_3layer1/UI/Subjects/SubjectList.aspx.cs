@@ -2,7 +2,7 @@
 using System;
 using System.Web.UI.WebControls;
 
-namespace demo_3layer1.UI
+namespace demo_3layer1.UI.Subjects
 {
     public partial class SubjectList : System.Web.UI.Page
     {

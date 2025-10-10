@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GradeList.aspx.cs" Inherits="demo_3layer1.Grades.GradeList" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GradeList.aspx.cs" Inherits="demo_3layer1.UI.Grades.GradeList" %>
 
 <!DOCTYPE html>
 

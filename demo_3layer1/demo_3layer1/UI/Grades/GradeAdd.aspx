@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GradeAdd.aspx.cs" Inherits="demo_3layer1.Grades.GradeAdd" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GradeAdd.aspx.cs" Inherits="demo_3layer1.UI.Grades.GradeAdd" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">

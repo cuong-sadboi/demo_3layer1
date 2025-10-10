@@ -4,9 +4,10 @@ using demo_3layer1.Models;
 using System;
 using System.Linq;
 using System.Web.UI.WebControls;
-using WebFormsApp.DataAccess;
 
-namespace demo_3layer1.Students
+
+
+namespace demo_3layer1.UI.Students
 {
     public partial class StudentList : System.Web.UI.Page
     {

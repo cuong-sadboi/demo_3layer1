@@ -3,7 +3,7 @@ using System;
 using System.Globalization;
 using System.Web.UI.WebControls;
 
-namespace demo_3layer1.Grades
+namespace demo_3layer1.UI.Grades
 {
     public partial class GradeList : System.Web.UI.Page
     {

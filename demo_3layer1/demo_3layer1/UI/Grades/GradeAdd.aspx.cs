@@ -1,11 +1,13 @@
 using demo_3layer1.Business;
 using demo_3layer1.DataAccess;
 using System;
+using System.Linq;
+using demo_3layer1.Models;
 using System.Globalization;
 using System.Web.UI.WebControls;
-using WebFormsApp.DataAccess;
 
-namespace demo_3layer1.Grades
+
+namespace demo_3layer1.UI.Grades
 {
     public partial class GradeAdd : System.Web.UI.Page
     {

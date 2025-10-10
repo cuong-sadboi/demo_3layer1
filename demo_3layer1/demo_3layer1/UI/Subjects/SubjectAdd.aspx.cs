@@ -3,7 +3,7 @@ using demo_3layer1.Models;
 using System;
 using System.Xml.Linq;
 
-namespace demo_3layer1.UI
+namespace demo_3layer1.UI.Subjects
 {
     public partial class SubjectAdd : System.Web.UI.Page
     {

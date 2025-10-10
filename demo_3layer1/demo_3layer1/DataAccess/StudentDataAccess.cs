@@ -3,7 +3,7 @@ using demo_3layer1.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace WebFormsApp.DataAccess
+namespace demo_3layer1.DataAccess
 {
     public class StudentDataAccess
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace demo_3layer1.Grades
+namespace demo_3layer1.UI.Grades
 {
 
 

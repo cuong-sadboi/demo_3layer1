@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SubjectEdit.aspx.cs" Inherits="demo_3layer1.UI.SubjectEdit" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SubjectEdit.aspx.cs" Inherits="demo_3layer1.UI.Subjects.SubjectEdit" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
