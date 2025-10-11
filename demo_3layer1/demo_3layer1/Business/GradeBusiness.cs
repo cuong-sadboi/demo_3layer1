@@ -19,6 +19,10 @@ namespace demo_3layer1.Business
         {
             return _data.GetAllGrades();
         }
+        public List<Grade> GetGradesOfStudent(int studentId)
+        {
+            return _data.GetGradesByStudent(studentId);
+        }
 
         // Lấy tất cả sinh viên kèm điểm (left join)
         public List<StudentGradeVM> GetStudentsWithGrades()

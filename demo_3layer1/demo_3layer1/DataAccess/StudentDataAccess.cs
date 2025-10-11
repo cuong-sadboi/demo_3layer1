@@ -42,11 +42,16 @@ namespace demo_3layer1.DataAccess
                     existing.Name = student.Name;
                     existing.ClassName = student.ClassName;
                     existing.Email = student.Email;
+                    existing.UserId = student.UserId;
                     context.SaveChanges();
                 }
             }
         }
-
+        public Student GetByUserId(int userId)
+        {
+            using (var context = new AppDbContext())
+                return context.Students.FirstOrDefault(s => s.UserId == userId);
+        }
         public void DeleteStudent(int id)
         {
             using (var context = new AppDbContext())

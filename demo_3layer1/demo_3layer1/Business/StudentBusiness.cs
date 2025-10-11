@@ -11,6 +11,7 @@ namespace demo_3layer1.Business
     public class StudentBusiness
     {
         private readonly StudentDataAccess _data = new StudentDataAccess();
+        public Student GetByUserId(int userId) => _data.GetByUserId(userId);
 
         // Lấy tất cả sinh viên
         public List<Student> GetAllStudents()

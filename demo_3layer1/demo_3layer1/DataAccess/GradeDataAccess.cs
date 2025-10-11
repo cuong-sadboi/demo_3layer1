@@ -71,5 +71,14 @@ namespace demo_3layer1.DataAccess
                 _context.SaveChanges();
             }
         }
+    public List<Grade> GetGradesByStudent(int studentId)
+        {
+            return _context.Grades
+                .Include(g => g.Student)
+                .Include(g => g.Subject)
+                .Where(g => g.StudentId == studentId)
+                .OrderBy(g => g.SubjectId)
+                .ToList();
+        }
     }
 }

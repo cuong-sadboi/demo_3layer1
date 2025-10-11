@@ -32,48 +32,60 @@ namespace demo_3layer1.UI.Loginn
         {
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
+
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 lblMessage.Text = "Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!";
                 return;
             }
 
-            User user = _userBusiness.Login(username, password);
-
-            if (user != null)
-            {
-                // ✅ Lưu thông tin đăng nhập vào session
-                Session["Username"] = user.Username;
-                Session["Role"] = user.Role;
-                // Optional: set StudentId mapping demo (first student) when Student logs in
-                if (user.Role == "Student" && Session["StudentId"] == null)
-                {
-                    // naive mapping for demo
-                    var ctx = new demo_3layer1.DataAccess.AppDbContext();
-                    var firstStudent = ctx.Students.FirstOrDefault();
-                    if (firstStudent != null) Session["StudentId"] = firstStudent.Id;
-                }
-                lblMessage.Text = "Role: " + user.Role;
-                // ✅ Chuyển hướng sau đăng nhập
-                switch (user.Role)
-                {
-                    case "Admin":
-                        Response.Redirect("AdminDashboard.aspx");
-                        break;
-                    case "Teacher":
-                        Response.Redirect("TeacherDashboard.aspx");
-                        break;
-                    case "Student":
-                        Response.Redirect("StudentDashboard.aspx");
-                        break;
-                    default:
-                        lblMessage.Text = "Vai trò không hợp lệ.";
-                        break;
-                }
-            }
-            else
+            var user = _userBusiness.Login(username, password);
+            if (user == null)
             {
                 lblMessage.Text = "Sai tên đăng nhập hoặc mật khẩu!";
+                return;
+            }
+
+            // ✅ Lưu thông tin đăng nhập vào session
+            Session["Username"] = user.Username;
+            Session["Role"] = user.Role;
+            Session["UserId"] = user.Id;
+            
+            // QUAN TRỌNG: nhớ lưu luôn UserId
+
+            // ✅ Nếu là sinh viên → tìm đúng Student theo UserId
+            if (string.Equals(user.Role, "Student", StringComparison.OrdinalIgnoreCase))
+            {
+                var stu = new StudentBusiness().GetByUserId(user.Id); // cần hàm này
+                
+                if (stu != null)
+                {
+                    Session["StudentId"] = stu.Id;
+                    Session["StudentName"] = stu.Name;
+                }
+                else
+                {
+                    // Chưa liên kết → thông báo nhẹ, vẫn cho vào dashboard
+                    // (tuỳ ý bạn: có thể chuyển hướng sang trang yêu cầu liên kết)
+                    lblMessage.Text = "Tài khoản chưa liên kết hồ sơ sinh viên.";
+                }
+            }
+
+            // ✅ Điều hướng theo role
+            switch (user.Role)
+            {
+                case "Admin":
+                    Response.Redirect("AdminDashboard.aspx");
+                    break;
+                case "Teacher":
+                    Response.Redirect("TeacherDashboard.aspx");
+                    break;
+                case "Student":
+                    Response.Redirect("StudentDashboard.aspx");
+                    break;
+                default:
+                    lblMessage.Text = "Vai trò không hợp lệ.";
+                    break;
             }
         }
     }

@@ -17,15 +17,28 @@ namespace demo_3layer1.UI.Grades
                 Response.Redirect("~/UI/Login/Login.aspx");
                 return;
             }
-            // Only Admin and Teacher can access
-            if (role != "Admin" && role != "Teacher")
+
+            if (!IsPostBack)
             {
-                Response.Redirect("~/UI/Login/Login.aspx");
-                return;
+                if (role.Equals("Student", StringComparison.OrdinalIgnoreCase))
+                {
+                    // Student: chỉ xem điểm của mình
+                    LoadGradesForStudent();
+                    // Ẩn nút thêm điểm và nút quay lại cho gọn (nếu muốn)
+                    btnAddGrade.Visible = false;
+                    btnBack.Text = "⬅️ Quay lại trang Sinh viên";
+                }
+                else if (role == "Admin" || role == "Teacher")
+                {
+                    // Admin/Teacher: xem toàn bộ
+                    btnBack.Text = role == "Teacher" ? "⬅️ Quay lại trang Giảng Viên" : "⬅️ Quay lại trang Admin";
+                    LoadGrades();
+                }
+                else
+                {
+                    Response.Redirect("~/UI/Login/Login.aspx");
+                }
             }
-                        // Set back button label based on role
-            btnBack.Text = role == "Teacher" ? "⬅️ Quay lại trang Giảng Viên" : "⬅️ Quay lại trang Admin";
-            if (!IsPostBack) LoadGrades();
         }
 
         private void LoadGrades()
@@ -33,6 +46,28 @@ namespace demo_3layer1.UI.Grades
             gvGrades.DataSource = _gradeBus.GetAllGrades();
             gvGrades.DataBind();
         }
+
+        private void LoadGradesForStudent()
+        {
+            if (Session["StudentId"] == null)
+            {
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+                lblMessage.Text = "Tài khoản sinh viên chưa liên kết với hồ sơ. Liên hệ quản trị viên.";
+                gvGrades.DataSource = new System.Collections.Generic.List<object>();
+                gvGrades.DataBind();
+                return;
+            }
+
+            int studentId = Convert.ToInt32(Session["StudentId"]);
+
+            // (tuỳ chọn) hiển thị tên sinh viên trên đầu trang — cần có StudentBusiness
+            var stuBiz = new StudentBusiness();
+            var stu = stuBiz.GetStudentById(studentId);
+            
+            gvGrades.DataSource = _gradeBus.GetGradesOfStudent(studentId); // cần method này ở GradeBusiness
+            gvGrades.DataBind();
+        }
+
 
         protected void gvGrades_RowEditing(object sender, GridViewEditEventArgs e)
         {
