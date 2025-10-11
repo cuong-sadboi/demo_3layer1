@@ -24,6 +24,8 @@
     <form id="form1" runat="server">
         <div class="container mt-4">
             <h2 class="text-center mb-4 text-primary fw-bold">📄 Kết quả học tập</h2>
+            <asp:Label ID="lblStudentName" runat="server"
+           CssClass="fw-bold fs-5 text-primary d-block mb-3 text-center"></asp:Label>
 
 
         <asp:Label ID="lblMessage" runat="server" CssClass="text-center d-block mb-3 text-success fw-semibold"></asp:Label>

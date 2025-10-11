@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.bak
+*.log
+
+# IIS Express
+App_Data/
+*.vspscc
+
+# Build output
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+
+# NuGet
+packages/
+*.nupkg
+*.nuspec
+
+# Others
+*.tmp
+*.swp

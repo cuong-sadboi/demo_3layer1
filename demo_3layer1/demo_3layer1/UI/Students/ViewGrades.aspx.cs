@@ -38,10 +38,28 @@ namespace demo_3layer1.UI.Students
         private void BindGrades()
         {
             int studentId = GetCurrentStudentId();
+
+            // 🟢 Lấy tên sinh viên và hiển thị
+            var student = _context.Students.FirstOrDefault(s => s.Id == studentId);
+            if (student != null)
+            {
+                lblStudentName.Text = "🎓 Sinh viên: " + student.Name +
+                    (string.IsNullOrWhiteSpace(student.ClassName) ? "" : " - " + student.ClassName);
+            }
+            else
+            {
+                lblStudentName.Text = "🎓 Sinh viên: (không tìm thấy)";
+            }
+
+            // 🟢 Lấy điểm
             var items = _context.Grades
                 .Where(g => g.StudentId == studentId)
-                .Select(g => new { g.Score, Subject = g.Subject })
-                .ToList();
+                .Select(g => new
+                 {
+                        Subject = new { Name = g.Subject.Name }, // ✅ có property Subject.Name
+                        g.Score
+                 }).ToList();
+
             gvGrades.DataSource = items;
             gvGrades.DataBind();
         }

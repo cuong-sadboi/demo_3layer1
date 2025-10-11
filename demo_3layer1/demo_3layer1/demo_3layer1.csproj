@@ -216,6 +216,10 @@
     <Compile Include="DataAccess\StudentDataAccess.cs" />
     <Compile Include="DataAccess\SubjectDataAccess.cs" />
     <Compile Include="DataAccess\UserDataAccess.cs" />
+    <Compile Include="Migrations\202510111414591_LinkStudentToUser.cs" />
+    <Compile Include="Migrations\202510111414591_LinkStudentToUser.Designer.cs">
+      <DependentUpon>202510111414591_LinkStudentToUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Security\PasswordHasher.cs" />
     <Compile Include="Migrations\202510070343169_Init.cs" />
     <Compile Include="Migrations\202510070343169_Init.Designer.cs">
@@ -405,6 +409,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202510071309152_Init1.resx">
       <DependentUpon>202510071309152_Init1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202510111414591_LinkStudentToUser.resx">
+      <DependentUpon>202510111414591_LinkStudentToUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
