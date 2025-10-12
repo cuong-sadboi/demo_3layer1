@@ -1,5 +1,6 @@
 ﻿using demo_3layer1.Business;
 using System;
+using System.Drawing;
 using System.Web.UI.WebControls;
 
 namespace demo_3layer1.UI.Subjects
@@ -11,19 +12,16 @@ namespace demo_3layer1.UI.Subjects
         protected void Page_Load(object sender, EventArgs e)
         {
             var role = Session["Role"] as string;
-            if (string.IsNullOrEmpty(role))
+            if (string.IsNullOrEmpty(role) || (role != "Admin" && role != "Teacher"))
             {
                 Response.Redirect("~/UI/Login/Login.aspx");
                 return;
             }
-            // Only Admin and Teacher can access
-            if (role != "Admin" && role != "Teacher")
-            {
-                Response.Redirect("~/UI/Login/Login.aspx");
-                return;
-            }
-            // Set back button text by role
+
+            // Set text + quyền theo vai trò
             btnBackAdmin.Text = role == "Teacher" ? "⬅️ Quay lại trang Giảng Viên" : "⬅️ Quay lại trang Admin";
+            btnAdd.Visible = (role == "Admin"); // Teacher không được thêm/xóa
+
             if (!IsPostBack)
                 LoadSubjects();
         }
@@ -42,28 +40,59 @@ namespace demo_3layer1.UI.Subjects
         protected void btnBackAdmin_Click(object sender, EventArgs e)
         {
             var role = Session["Role"] as string;
-            if (role == "Teacher")
+            Response.Redirect(role == "Teacher"
+                ? "~/UI/Login/TeacherDashboard.aspx"
+                : "~/UI/Login/AdminDashboard.aspx");
+        }
+
+        // Ẩn nút Xóa khi là Teacher
+        protected void gvSubjects_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
             {
-                Response.Redirect("~/UI/Login/TeacherDashboard.aspx");
-            }
-            else
-            {
-                Response.Redirect("~/UI/Login/AdminDashboard.aspx");
+                var role = Session["Role"] as string;
+                if (role == "Teacher")
+                {
+                    var btnDelete = e.Row.FindControl("btnDelete") as Button;
+                    if (btnDelete != null) btnDelete.Visible = false;
+                }
             }
         }
 
         protected void gvSubjects_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-            int id = Convert.ToInt32(e.CommandArgument);
+            // Tránh crash nếu CommandArgument rỗng
+            if (e.CommandArgument == null) return;
+
+            if (!int.TryParse(e.CommandArgument.ToString(), out int id))
+                return;
 
             if (e.CommandName == "EditSubject")
             {
                 Response.Redirect("SubjectEdit.aspx?id=" + id);
+                return;
             }
-            else if (e.CommandName == "DeleteSubject")
+
+            if (e.CommandName == "DeleteSubject")
             {
-                _subjectBusiness.DeleteSubject(id);
-                LoadSubjects();
+                try
+                {
+                    var msg = _subjectBusiness.DeleteSubject(id); // Business đã try/catch InvalidOperationException
+                    bool ok = msg.IndexOf("thành công", StringComparison.OrdinalIgnoreCase) >= 0;
+
+                    lblMessage.Visible = true;
+                    lblMessage.Text = (ok ? "✅ " : "❌ ") + msg;
+                    lblMessage.ForeColor = ok ? Color.Green : Color.Red;
+
+                    LoadSubjects(); // refresh lưới
+                }
+                catch (Exception ex)
+                {
+                    // Phòng trường hợp lỗi khác chưa được Business xử lý
+                    lblMessage.Visible = true;
+                    lblMessage.Text = "❌ Lỗi: " + ex.Message;
+                    lblMessage.ForeColor = Color.Red;
+                }
             }
         }
     }
