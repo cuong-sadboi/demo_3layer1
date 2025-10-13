@@ -20,7 +20,18 @@ namespace demo_3layer1.DataAccess
         {
             base.OnModelCreating(modelBuilder);
 
-            // Không cần cấu hình phức tạp — EF6 sẽ tự nhận
+            // Tắt cascade delete giữa Subject và các bảng con
+            modelBuilder.Entity<Grade>()
+                .HasRequired(g => g.Subject)
+                .WithMany()
+                .HasForeignKey(g => g.SubjectId)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<CourseRegistration>()
+                .HasRequired(c => c.Subject)
+                .WithMany()
+                .HasForeignKey(c => c.SubjectId)
+                .WillCascadeOnDelete(false);
 
         }   
     }

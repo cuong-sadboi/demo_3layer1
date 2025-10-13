@@ -23,6 +23,7 @@
     <form id="form1" runat="server">
         <div class="container mt-4">
             <h2 class="text-center mb-4 text-primary fw-bold">📚 Quản lý Môn Học</h2>
+            <asp:Label ID="lblMessage" runat="server" Visible="false"></asp:Label>
             <div class="row mb-4">
                 <div class="col-md-3">
                     <asp:Button ID="btnAdd" runat="server" Text="➕ Thêm môn học" CssClass="btn btn-success w-100 fw-semibold" OnClick="btnAdd_Click" />
@@ -30,7 +31,7 @@
          </div>
             <!-- Bảng danh sách sinh viên -->
             <asp:GridView ID="gvSubjects" runat="server" CssClass="table table-bordered table-hover text-center"
-                AutoGenerateColumns="False" DataKeyNames="Id" OnRowCommand="gvSubjects_RowCommand">
+                AutoGenerateColumns="False" DataKeyNames="Id" OnRowCommand="gvSubjects_RowCommand" OnRowDataBound="gvSubjects_RowDataBound">
                 <Columns>
                    <asp:BoundField DataField="Id" HeaderText="Mã môn" />
                     <asp:BoundField DataField="Name" HeaderText="Tên môn học" />

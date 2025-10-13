@@ -1,4 +1,5 @@
 ﻿using demo_3layer1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -50,6 +51,14 @@ namespace demo_3layer1.DataAccess
             var subject = _context.Subjects.Find(id);
             if (subject != null)
             {
+                bool hasRegistrations = _context.CourseRegistrations.Any(c => c.SubjectId == id);
+                bool hasGrades = _context.Grades.Any(g => g.SubjectId == id);
+
+                if (hasRegistrations || hasGrades)
+                {
+                    throw new InvalidOperationException("Không thể xóa môn học vì đang có sinh viên đăng ký hoặc đã có điểm.");
+                }
+
                 _context.Subjects.Remove(subject);
                 _context.SaveChanges();
             }

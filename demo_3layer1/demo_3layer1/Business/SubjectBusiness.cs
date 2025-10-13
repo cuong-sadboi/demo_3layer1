@@ -81,8 +81,20 @@ namespace demo_3layer1.Business
             if (existing == null)
                 return "Không tìm thấy môn học cần xóa.";
 
-            _dataAccess.DeleteSubject(id);
-            return "Đã xóa môn học thành công.";
+            try
+            {
+                _dataAccess.DeleteSubject(id);
+                return "Đã xóa môn học thành công.";
+            }
+            catch (InvalidOperationException ex)
+            {
+                // thông điệp nghiệp vụ từ DAL (đang có đăng ký / điểm)
+                return ex.Message; // "Không thể xóa môn học vì đang có sinh viên đăng ký hoặc đã có điểm."
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
         }
     }
 }

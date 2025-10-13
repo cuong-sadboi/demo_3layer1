@@ -7,13 +7,13 @@ namespace demo_3layer1.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.5.1")]
-    public sealed partial class Init1 : IMigrationMetadata
+    public sealed partial class DisableCascadeDelete : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Init1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DisableCascadeDelete));
         
         string IMigrationMetadata.Id
         {
-            get { return "202510071309152_Init1"; }
+            get { return "202510120221332_DisableCascadeDelete"; }
         }
         
         string IMigrationMetadata.Source

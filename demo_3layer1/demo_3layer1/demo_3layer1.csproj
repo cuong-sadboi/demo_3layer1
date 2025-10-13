@@ -220,14 +220,14 @@
     <Compile Include="Migrations\202510111414591_LinkStudentToUser.Designer.cs">
       <DependentUpon>202510111414591_LinkStudentToUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202510120221332_DisableCascadeDelete.cs" />
+    <Compile Include="Migrations\202510120221332_DisableCascadeDelete.Designer.cs">
+      <DependentUpon>202510120221332_DisableCascadeDelete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Security\PasswordHasher.cs" />
     <Compile Include="Migrations\202510070343169_Init.cs" />
     <Compile Include="Migrations\202510070343169_Init.Designer.cs">
       <DependentUpon>202510070343169_Init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202510071309152_Init1.cs" />
-    <Compile Include="Migrations\202510071309152_Init1.Designer.cs">
-      <DependentUpon>202510071309152_Init1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CourseRegistration.cs" />
@@ -407,11 +407,11 @@
     <EmbeddedResource Include="Migrations\202510070343169_Init.resx">
       <DependentUpon>202510070343169_Init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202510071309152_Init1.resx">
-      <DependentUpon>202510071309152_Init1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202510111414591_LinkStudentToUser.resx">
       <DependentUpon>202510111414591_LinkStudentToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202510120221332_DisableCascadeDelete.resx">
+      <DependentUpon>202510120221332_DisableCascadeDelete.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
