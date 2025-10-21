@@ -1,4 +1,4 @@
-﻿using demo_3layer1.Models;
+using demo_3layer1.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +62,20 @@ namespace demo_3layer1.DataAccess
                 _context.Subjects.Remove(subject);
                 _context.SaveChanges();
             }
+        }
+
+        // Tìm kiếm môn học theo từ khóa (theo tên; rỗng => trả tất cả)
+        public List<Subject> SearchSubjects(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+            {
+                return GetAllSubjects();
+            }
+
+            string trimmed = keyword.Trim();
+            return _context.Subjects
+                .Where(s => s.Name.Contains(trimmed))
+                .ToList();
         }
     }
 }

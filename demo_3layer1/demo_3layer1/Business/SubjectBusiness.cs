@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using demo_3layer1.Models;
 using demo_3layer1.DataAccess;
@@ -95,6 +95,12 @@ namespace demo_3layer1.Business
             {
                 return "Lỗi: " + ex.Message;
             }
+        }
+
+        // Tìm kiếm môn học theo từ khóa (theo tên; rỗng => tất cả)
+        public List<Subject> SearchSubjects(string keyword)
+        {
+            return _dataAccess.SearchSubjects(keyword);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using demo_3layer1.Business;
+using demo_3layer1.Business;
 using System;
 using System.Drawing;
 using System.Web.UI.WebControls;
@@ -94,6 +94,19 @@ namespace demo_3layer1.UI.Subjects
                     lblMessage.ForeColor = Color.Red;
                 }
             }
+        }
+
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            var keyword = txtKeyword.Text;
+            gvSubjects.DataSource = _subjectBusiness.SearchSubjects(keyword);
+            gvSubjects.DataBind();
+        }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txtKeyword.Text = string.Empty;
+            LoadSubjects();
         }
     }
 }

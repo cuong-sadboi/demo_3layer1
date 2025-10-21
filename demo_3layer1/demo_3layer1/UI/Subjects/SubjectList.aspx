@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SubjectList.aspx.cs" Inherits="demo_3layer1.UI.Subjects.SubjectList" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SubjectList.aspx.cs" Inherits="demo_3layer1.UI.Subjects.SubjectList" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -24,11 +24,27 @@
         <div class="container mt-4">
             <h2 class="text-center mb-4 text-primary fw-bold">📚 Quản lý Môn Học</h2>
             <asp:Label ID="lblMessage" runat="server" Visible="false"></asp:Label>
-            <div class="row mb-4">
-                <div class="col-md-3">
-                    <asp:Button ID="btnAdd" runat="server" Text="➕ Thêm môn học" CssClass="btn btn-success w-100 fw-semibold" OnClick="btnAdd_Click" />
+            <!-- 🔍 Tìm kiếm môn học -->
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <div class="row g-2 align-items-end">
+                        <div class="col-md-6">
+                            <label for="txtKeyword" class="form-label mb-1">Từ khóa</label>
+                            <asp:TextBox ID="txtKeyword" runat="server" CssClass="form-control" Placeholder="Nhập tên môn học..."></asp:TextBox>
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <asp:Button ID="btnSearch" runat="server" CssClass="btn btn-primary" Text="🔍 Tìm" OnClick="btnSearch_Click" />
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <asp:Button ID="btnClear" runat="server" CssClass="btn btn-outline-secondary" Text="Làm mới" OnClick="btnClear_Click" />
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <asp:Button ID="btnAdd" runat="server" Text="➕ Thêm môn học" CssClass="btn btn-success fw-semibold" OnClick="btnAdd_Click" />
+                        </div>
+                    </div>
                 </div>
-         </div>
+            </div>
+            
             <!-- Bảng danh sách sinh viên -->
             <asp:GridView ID="gvSubjects" runat="server" CssClass="table table-bordered table-hover text-center"
                 AutoGenerateColumns="False" DataKeyNames="Id" OnRowCommand="gvSubjects_RowCommand" OnRowDataBound="gvSubjects_RowDataBound">
