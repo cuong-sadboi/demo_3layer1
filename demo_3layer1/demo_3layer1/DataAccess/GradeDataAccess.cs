@@ -1,7 +1,8 @@
-﻿using demo_3layer1.Models;
+using demo_3layer1.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Data.Entity;
+using System.Data.Entity.SqlServer;
 
 namespace demo_3layer1.DataAccess
 {
@@ -78,6 +79,75 @@ namespace demo_3layer1.DataAccess
                 .Include(g => g.Subject)
                 .Where(g => g.StudentId == studentId)
                 .OrderBy(g => g.SubjectId)
+                .ToList();
+        }
+
+        // ====== Search helpers ======
+        public List<Grade> SearchGrades(string keyword)
+        {
+            string lower = keyword.ToLower();
+            return _context.Grades
+                .Include(g => g.Student)
+                .Include(g => g.Subject)
+                .Where(g => g.Student.Name.ToLower().Contains(lower)
+                         || g.Subject.Name.ToLower().Contains(lower)
+                         || ("" + g.Score).Contains(keyword))
+                .OrderBy(g => g.StudentId)
+                .ThenBy(g => g.SubjectId)
+                .ToList();
+        }
+
+        public List<Grade> SearchGradesByStudentName(string keyword)
+        {
+            string lower = keyword.ToLower();
+            return _context.Grades
+                .Include(g => g.Student)
+                .Include(g => g.Subject)
+                .Where(g => g.Student.Name.ToLower().Contains(lower))
+                .OrderBy(g => g.StudentId)
+                .ThenBy(g => g.SubjectId)
+                .ToList();
+        }
+
+        public List<Grade> SearchGradesBySubjectName(string keyword)
+        {
+            string lower = keyword.ToLower();
+            return _context.Grades
+                .Include(g => g.Student)
+                .Include(g => g.Subject)
+                .Where(g => g.Subject.Name.ToLower().Contains(lower))
+                .OrderBy(g => g.StudentId)
+                .ThenBy(g => g.SubjectId)
+                .ToList();
+        }
+
+        public List<Grade> SearchGradesByScore(string keyword)
+        {
+            // allow decimal variants: 7,5 or 7.5
+            string normalized = keyword.Replace(',', '.');
+
+            double score;
+            bool isNumeric = double.TryParse(normalized, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out score);
+
+            var query = _context.Grades
+                .Include(g => g.Student)
+                .Include(g => g.Subject)
+                .AsQueryable();
+
+            if (isNumeric)
+            {
+                // exact match if numeric parsed
+                query = query.Where(g => g.Score == score);
+            }
+            else
+            {
+                // fallback contains on string representation
+                query = query.Where(g => SqlFunctions.StringConvert((double?)g.Score).Contains(keyword));
+            }
+
+            return query
+                .OrderBy(g => g.StudentId)
+                .ThenBy(g => g.SubjectId)
                 .ToList();
         }
     }

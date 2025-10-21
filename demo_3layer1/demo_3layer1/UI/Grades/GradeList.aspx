@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GradeList.aspx.cs" Inherits="demo_3layer1.UI.Grades.GradeList" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GradeList.aspx.cs" Inherits="demo_3layer1.UI.Grades.GradeList" %>
 
 <!DOCTYPE html>
 
@@ -38,6 +38,33 @@
             <!-- 🟢 Label hiển thị tên sinh viên -->
             <asp:Label ID="lblStudentName" runat="server"
                        CssClass="fw-bold fs-5 text-primary d-block mb-3 text-center"></asp:Label>
+
+            <!-- 🔍 Tìm kiếm điểm -->
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <div class="row g-2 align-items-end">
+                        <div class="col-md-5">
+                            <label for="txtKeyword" class="form-label mb-1">Từ khóa</label>
+                            <asp:TextBox ID="txtKeyword" runat="server" CssClass="form-control" Placeholder="Tên sinh viên, tên môn hoặc điểm"></asp:TextBox>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="ddlField" class="form-label mb-1">Theo trường</label>
+                            <asp:DropDownList ID="ddlField" runat="server" CssClass="form-select">
+                                <asp:ListItem Text="Tất cả" Value="all" Selected="True"></asp:ListItem>
+                                <asp:ListItem Text="Sinh viên" Value="student"></asp:ListItem>
+                                <asp:ListItem Text="Môn học" Value="subject"></asp:ListItem>
+                                <asp:ListItem Text="Điểm" Value="score"></asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <asp:Button ID="btnSearch" runat="server" CssClass="btn btn-primary" Text="🔍 Tìm" OnClick="btnSearch_Click" />
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <asp:Button ID="btnClear" runat="server" CssClass="btn btn-outline-secondary" Text="Làm mới" OnClick="btnClear_Click" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Nút thêm điểm (ẩn khi là sinh viên) -->
             <div class="row mb-3">

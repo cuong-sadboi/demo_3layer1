@@ -27,6 +27,11 @@ namespace demo_3layer1.UI.Grades
                     // Ẩn nút thêm điểm và nút quay lại cho gọn (nếu muốn)
                     btnAddGrade.Visible = false;
                     btnBack.Text = "⬅️ Quay lại trang Sinh viên";
+                    // Ẩn khu vực tìm kiếm đối với Sinh viên
+                    txtKeyword.Visible = false;
+                    ddlField.Visible = false;
+                    btnSearch.Visible = false;
+                    btnClear.Visible = false;
                 }
                 else if (role == "Admin" || role == "Teacher")
                 {
@@ -66,6 +71,57 @@ namespace demo_3layer1.UI.Grades
             
             gvGrades.DataSource = _gradeBus.GetGradesOfStudent(studentId); // cần method này ở GradeBusiness
             gvGrades.DataBind();
+        }
+
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string keyword = txtKeyword.Text?.Trim() ?? string.Empty;
+                string field = ddlField.SelectedValue;
+
+                if (string.IsNullOrWhiteSpace(keyword))
+                {
+                    LoadGrades();
+                    return;
+                }
+
+                var results = _gradeBus.SearchGrades(keyword, field);
+                gvGrades.DataSource = results;
+                gvGrades.DataBind();
+
+                if (results == null || results.Count == 0)
+                {
+                    lblMessage.ForeColor = System.Drawing.Color.OrangeRed;
+                    lblMessage.Text = "Không tìm thấy kết quả phù hợp.";
+                }
+                else
+                {
+                    lblMessage.ForeColor = System.Drawing.Color.Green;
+                    lblMessage.Text = $"Tìm thấy {results.Count} kết quả.";
+                }
+            }
+            catch (Exception ex)
+            {
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+                lblMessage.Text = "❌ Lỗi: " + ex.Message;
+            }
+        }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txtKeyword.Text = string.Empty;
+            ddlField.SelectedValue = "all";
+            lblMessage.Text = string.Empty;
+            var role = Session["Role"] as string;
+            if (!string.IsNullOrEmpty(role) && role.Equals("Student", StringComparison.OrdinalIgnoreCase))
+            {
+                LoadGradesForStudent();
+            }
+            else
+            {
+                LoadGrades();
+            }
         }
 
 

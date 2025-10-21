@@ -1,4 +1,4 @@
-﻿using demo_3layer1.DataAccess;
+using demo_3layer1.DataAccess;
 using demo_3layer1.Models;
 using demo_3layer1.ViewModel;
 using System;
@@ -76,6 +76,30 @@ namespace demo_3layer1.Business
 
             _data.DeleteGrade(studentId, subjectId);
             return "Đã xóa điểm thành công!";
+        }
+
+        // Tìm kiếm điểm theo từ khóa và trường
+        public List<Grade> SearchGrades(string keyword, string field)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+            {
+                return GetAllGrades();
+            }
+
+            keyword = keyword.Trim();
+            field = string.IsNullOrWhiteSpace(field) ? "all" : field.Trim().ToLowerInvariant();
+
+            switch (field)
+            {
+                case "student":
+                    return _data.SearchGradesByStudentName(keyword);
+                case "subject":
+                    return _data.SearchGradesBySubjectName(keyword);
+                case "score":
+                    return _data.SearchGradesByScore(keyword);
+                default:
+                    return _data.SearchGrades(keyword);
+            }
         }
     }
 }
